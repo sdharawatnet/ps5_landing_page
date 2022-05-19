@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Playstation 5 Website Landing Page</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <section> 
+      <div class="containDesign"></div>
+      <header>
+        <a href="#"><img src="./resources/img/logo_ps.png" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">What's new</a></li>
+          <li><a href="#">Bundles</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Play has no limits. <br />Get your <span>PS5</span> now!</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eum
+            officiis, aliquid mollitia similique culpa! Magnam exercitationem
+            aut, illum qui ipsam dolorum earum dolore nostrum unde quasi
+            voluptatum ex omnis.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+          <img
+            src="./resources/img/controller_large_pink.png"
+            alt=""
+            class="ps5_controller"
+          />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="./resources/img/controller_small_red.png"
+            alt=""
+            onclick="imgSlide('./resources/img/controller_large_red.png') ; changeCircleColor('#862121')"
+          />
+        </li>
+        <li>
+          <img
+            src="./resources/img/controller_small_white.png"
+            alt=""
+            onclick="imgSlide('./resources/img/controller_large_white.png') ; changeCircleColor('#03254f')"
+          />
+        </li>
+        <li>
+          <img
+            src="./resources/img/controller_small_pink.png"
+            alt=""
+            onclick="imgSlide('./resources/img/controller_large_pink.png'); changeCircleColor('#121825')"
+          />
+        </li>
+        <li>
+          <img
+            src="./resources/img/controller_small_green.png"
+            alt=""
+            onclick="imgSlide('./resources/img/controller_large_green.png') ; changeCircleColor('#28390f')"
+          />
+        </li>
+      </ul>
+      <ul class="contact">
+        <li>
+          <a href="#"><img src="./resources/img/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./resources/img/twitter.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./resources/img/instagram.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+
+    <script src="js/slideImage.js"></script>
+  </body>
+</html>
